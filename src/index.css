@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.gameBoard{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.gameBoard h1{
+  margin: 20px auto;
+  font-size: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.board-rows{
+  margin: 20px auto;
+}
+
+.board-rows .status{
+  margin: 20px auto;
+  font-weight: 600;
+}
+
+.board-row{
+  display: flex;
+}
+
+.square{
+  height: 100px;
+  width: 100px;
+  border: 4px solid black;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
